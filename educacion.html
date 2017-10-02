@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Hoja de vida</title>
+	<meta charset="utf-8"/> 
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<meta name="autor" content="Juan Evan Yucra Huanca">
+	<meta name="description" content="Hoja de Vida Juan Evan Yucra Huanca">
+</head>
+<body>
+<header>
+	<div id="logo">
+       <img src="images/iniciales.svg" width="200px" height="100px"/>
+	 </div>
+	<h1>
+		Hoja de Vida
+	</h1>
+</header>
+	<h2>Datos Personales</h2>
+	<h3>Juan Evan Yucra Huanca</h3>
+	<ul>
+		<li><a href="index.html">Index </a></li>
+		<li><a href="educacion.html">Educacion </a></li>
+		<li><a href="experiencia.html">Experiencia </a></li>
+	</ul>
+	<h2>Educacion</h2>
+	<hr>
+	<table border="1">
+		<tr>
+			<th>Año</th>
+			<th>Institución</th>
+			<th>Lugar</th>
+			<th>Culmino?</th>
+		</tr>
+		<tr>
+			<td>2000</td>
+			<td>Instituto Superior de Comercio Daniel Campos</td>
+			<td>Uyuni</td>
+			<td>Si</td>
+		</tr>
+		<tr>
+			<td>2013</td>
+			<td>Universidad San Francisco Xavier de Chuquisaca</td>
+			<td>Sucre</td>
+			<td>Si</td>
+		</tr>
+		<tr>
+			<td>2015</td>
+			<td>Universidad Nalcional SIGLO XX</td>
+			<td>Llallagua</td>
+			<td>Si</td>
+		</tr>
+	</table>
+	<h3>Agregar Estudios</h3>
+	<form id="estudios">
+	<fieldset>
+		<legend align="right">Llenar campos</legend>
+		<label for="anio"> Año:</label>
+		<select name="anio">
+		   <option>2010</option>
+           <option>2011</option>
+           <option>2012</option>
+           <option>2013</option>
+		</select></br>
+		<label for="institucion"> Institución:</label>
+	
+		<input type="text" name="institucion" id="institucion" required /></br>
+		<label for="lugar" > Lugar:</label>
+		<textarea name="lugar" id="lugar" required></textarea></br>
+		<label for="culminar"> Culminó?:</label>
+		<input type="radio" id="radio1"
+			 name="contact" value="Si" checked>
+		<label for="contactChoice1">Si</label>
+
+		<input type="radio" id="radio2"
+			 name="contact" value="No">
+		<label for="contactChoice2">No</label>
+
+		
+	</fieldset>	
+	<input type="submit" name="enviar" value="Enviar" />
+	</form>
+	<footer>
+	@Derechos Reservados
+	<ul>
+		<li>email:evanjuans@gmail.com </li>
+		<li>cel.: 73413001 </li>
+		<li>Dirección: Colcha K, plaza principal nro. 2</li>
+	</ul>
+	</footer>
+</body>
+</html>
